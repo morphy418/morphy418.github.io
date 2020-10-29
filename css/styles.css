@@ -1,0 +1,10 @@
+body {
+    background-color: #443737;
+    
+}
+
+#title {
+    background-image: url(../images/image1.png);
+    background-size: cover;
+    height: 800px ;
+}
