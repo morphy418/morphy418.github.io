@@ -14,80 +14,140 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
     </script>
 
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <section id="title">
-
-        <!-- Navbar -->
-        <nav class='navbar navbar-expand-lg navbar-light'>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class='navbar-brand' href=''>KA</a>
-            <div class='collapse navbar-collapse' id='navbarTogglerDemo02'>
-                <ul class='navbar-nav ml-auto'>
-                    <li class='nav-item'>
-                        <a class='nav-link' href='#intro'>About Me</a>
-                    </li>
+    <section class="white-section" id="title">
+        <div class="container-fluid">
+            <!-- Navbar -->
+            <nav class='navbar navbar-expand-lg'>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class='navbar-brand' href=''>KA</a>
+                <div class='collapse navbar-collapse' id='navbarToggler'>
                     <ul class='navbar-nav ml-auto'>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#intro'>About Me</a>
+                        </li>
                         <li class='nav-item'>
                             <a class='nav-link' href='#features'>Why choose Me</a>
                         </li>
-                        <ul class='navbar-nav ml-auto'>
-                            <li class='nav-item'>
-                                <a class='nav-link' href='#testimonials'>Testimonials</a>
-                            </li>
-                            <li class='nav-item'>
-                                <a class='nav-link' href='#courses'>Courses</a>
-                            </li>
-                            <li class='nav-item'>
-                                <a class='nav-link' href='#cta'>Contact me</a>
-                            </li>
-                        </ul>
+
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#testimonials'>Testimonials</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#courses'>Courses</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#cta'>Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Title -->
+            <div class="landing-title container-fluid">
+                <h1 class="title"><span class="highlight">K</span>eewee <span class="highlight">A</span>cademy</h1>
+                <h2 class="subtitle">The most awesome poker dealer course that will change your life. <br>
+                    Or not. <br>
+                    It's up to you.
+                </h2>
             </div>
-        </nav>
-        <!-- Title -->
-        <div>
-            <h1>Keewee Academy</h1>
         </div>
     </section>
 
     <!-- Introduction -->
-    <section id="intro">
+    <section class="dark-section" id="intro">
         <div>
-            <img src="images/pikk_cutoff.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quam nisl, semper in lectus eleifend, hendrerit hendrerit eros. In eu massa odio. In hac habitasse platea dictumst. Duis ac lobortis arcu, 
-                quis mollis nulla. Quisque tellus erat, suscipit ac imperdiet in, dapibus eu dolor. Sed quis libero dignissim, efficitur nisi sed, 
-                tincidunt magna. Sed sed augue nec mi pellentesque volutpat. Curabitur mattis posuere eros, at gravida nibh ultrices sed. Integer nec vehicula orci. Ut eget maximus orci.</p>
+            <img class="profile-image" src="images/idiot.png" alt="bandi-image">
+            <p>Hi!Welcome to my page, my name is Andras. 
+                I have been working as a poker dealer for 8 years in London's two leading casinos. 
+                During this time I have realized that those departments require a new and innovative 
+                way to provide high quality recruitment, and I have decided to take part of that. 
+                Having taught poker dealing in London for 2 years I have gained substantial experience 
+                working with students from a wide variety of backgrounds. This has taught me the value 
+                of the flexible approach, and the importance of personal attention. My mission is to 
+                give everyone the chance to be part of this extraordinary industry. If you have any 
+                questions please feel free to contact me.
+                </p>
         </div>
     </section>
 
     <!-- Features -->
-    <section id="features">
-
+    <section class="white-section" id="features">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 feature-box">
+                    <i class="icon fas fa-check-circle fa-5x"></i>
+                    <h3 class="feature-title">One-on-One lessons.</h3>
+                    <p>Personal training to achieve a high standard.</p>
+                </div>
+                <div class="col-lg-4 feature-box">
+                    <i class="icon fas fa-bullseye fa-5x"></i>
+                    <h3 class="feature-title">Versatility</h3>
+                    <p>Learn at your own pace, when it is convenient for you.</p>
+                </div>
+                <div class="col-lg-4 feature-box">
+                    <i class="icon fas fa-heart fa-5x"></i>
+                    <h3 class="feature-title">Free Consultation</h3>
+                    <p>To get every information without commitment.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials">
+    <section class="dark-section" id="testimonials">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
 
+                    <h2 class="testimonial-text">Because of the years of experience Andras has, he made this course a great opportunity to learn, and have fun at the same time. He has got a simple, but effective way to teach everything that you need to know to become a poker dealer.</h2>
+                    <img class="testimonial-image" src="images/ati-profile.png" alt="attila-profile">
+                    <em>Attila Gacsal</em>
+
+                </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+
+                    <h2 class="testimonial-text">Because of the years of experience Andras has, he made this course a great opportunity to learn, and have fun at the same time. He has got a simple, but effective way to teach everything that you need to know to become a poker dealer.</h2>
+                    <img class="testimonial-image" src="images/ati.JPG" alt="attila-profile">
+                    <em>Attila Gacsal</em>
+                </div>
+                
+
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+            </a>
+        </div>
     </section>
 
     <!-- Courses -->
-    <section id="curses">
+    <section class="white-section" id="courses">
 
     </section>
 
     <!-- Call to Action -->
-    <section id="cta">
+    <section class="white-section" id="cta">
 
     </section>
 

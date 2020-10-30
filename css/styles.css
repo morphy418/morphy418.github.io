@@ -1,10 +1,81 @@
 body {
-    background-color: #443737;
-    
+    text-align: center; 
 }
 
+h1, h2, h3, h4, h5, .navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+
+.highlight {
+    color: #cd0a0a;
+}
+
+.navbar-brand { 
+            color: #cd0a0a; 
+            font-size: 2rem;
+        } 
+
+.navbar-nav.ml-auto li a {
+    color: #cd0a0a;
+    font-weight: bold;
+}
+
+
 #title {
-    background-image: url(../images/image1.png);
+    background-image: url(../images/landing-kivi.png);
     background-size: cover;
-    height: 800px ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 785px ;
+    text-align: left;
+}
+
+.landing-title {
+
+    padding: 10% 43% 10% 20%;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.subtitle {
+    /* font-size: 6rem; */
+}
+
+/* Sections  */
+
+.dark-section {
+    background-color: #272121;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Introduction */
+
+.profile-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Testimonials */
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#footer {
+    background-image: url(../images/image0.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1200px;
+    
 }
