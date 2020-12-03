@@ -1,53 +1,72 @@
 body {
-    text-align: center; 
+    text-align: center;
 }
 
-h1, h2, h3, h4, h5, .navbar-brand {
-    font-family: 'Lobster', cursive;
+
+@font-face {
+    font-family: "Aqua Grotesque";
+    src: url("../fonts/aqua/aqua-webfont.woff") format("woff");
+    src: url("../fonts/aqua/aqua-webfont.woff2") format("woff2");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand,
+.nav-item {
+    font-family: "Aqua Grotesque";
+    /* text-transform: uppercase; */
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.p-highlighted {
+font-weight: 400;
+}
+
+.quote {
+  line-height: 2.7rem;
+  padding-bottom: 30px;
 }
 
 .highlight {
     color: #cd0a0a;
 }
 
-.navbar-brand { 
-            color: #cd0a0a; 
-            font-size: 2rem;
-        } 
+.navbar-brand {
+    color: #cd0a0a;
+    font-size: 2rem;
+}
 
-.navbar-nav.ml-auto li a {
+.navbar-brand:hover {
+    color: #000;
+}
+
+.nav-link {
     color: #cd0a0a;
     font-weight: bold;
+    margin: auto 10px auto 10px;
 }
 
-
-#title {
-    background-image: url(../images/landing-kivi.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    height: 785px ;
-    text-align: left;
+.nav-link:hover {
+    color: #000;
 }
 
-.landing-title {
-
-    padding: 10% 43% 10% 20%;
-}
-
-.title {
-    font-size: 4rem;
-}
-
-.subtitle {
-    /* font-size: 6rem; */
+.navbar {
+    margin-right: 7%;
 }
 
 /* Sections  */
 
 .dark-section {
-    background-color: #272121;
+    background-color: #46403E;
     color: white;
 }
 
@@ -55,15 +74,83 @@ h1, h2, h3, h4, h5, .navbar-brand {
     background-color: white;
 }
 
+/* Title */
+
+#title {
+    background-image: url("../images/edited/landing_kivi_brown.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 785px;
+    text-align: left;
+}
+
+.landing-title {
+
+    padding: 13% 35% 10% 22%;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.subtitle {
+    line-height: 2.5rem;
+}
+
+.clubs {
+    width: 30%;
+    position: absolute;
+}
+
 /* Introduction */
 
+#intro {
+    padding: 7% 30%;
+}
+
 .profile-image {
-    width: 15%;
+    width: 50%;
     border-radius: 100%;
-    margin: 20px;
+    margin-bottom: 80px;
+    /* border: 3px solid #cd0a0a; */
+}
+
+
+/* Features */
+#features {
+    background-image: url('../images/edited/usp_background2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 697px;
+}
+
+.usp-container {
+    padding: 16% 16%;
+
+}
+
+.feature-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.feature-title {
+    color: #cd0a0a;
+}
+
+.icon {
+    padding-bottom: 30px;
 }
 
 /* Testimonials */
+
+#testimonials {
+    height: 80%;
+    padding: 7% 10%;
+}
 
 .testimonial-image {
     width: 10%;
@@ -77,5 +164,105 @@ h1, h2, h3, h4, h5, .navbar-brand {
     background-position: center center;
     background-repeat: no-repeat;
     height: 1200px;
-    
+}
+
+
+/* Courses */
+
+.courses-title {
+    margin: 8% auto;
+    font-size: 3rem;
+}
+
+.courses-left {
+    margin-top: 10%;
+}
+
+.courses-right {
+    margin-top: 10%;
+}
+
+.courses-description-left {
+    padding: 3% 10% 2% 40%;
+    text-align: justify;
+}
+
+.courses-description-right {
+    padding: 6% 40% 7% 10%;
+    text-align: justify;
+}
+
+.prices {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 30%;
+    margin-top: 10%;
+}
+
+.diamonds {
+    width: 35%;
+    float: left;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.spades {
+    width: 35%;
+    float: right;
+    padding-bottom: 10%
+}
+
+.hearts {
+    width: 38%;
+    float: left;
+    padding-bottom: 8%
+}
+
+/* CTA */
+
+#cta {
+    margin-top: 15%;
+}
+
+.call-to-action {
+  text-align: center;
+  padding: 5% 20%
+}
+
+.cta-decoration {
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+/* Footer */
+
+.riddle {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 15% 33% 15% 17%;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.riddle-answer {
+  text-align: right;
+  padding-right: 6%;
+}
+
+.footer-info {
+  padding-top: 8%;
+  text-align: center;
+}
+
+.socmed {
+  margin: auto 20px;
 }
