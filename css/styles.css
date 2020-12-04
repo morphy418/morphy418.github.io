@@ -77,18 +77,17 @@ font-weight: 400;
 /* Title */
 
 #title {
-    background-image: url("../images/edited/landing_kivi_brown.png");
+    background-image: url("../images/elements/landing_kivi_brown.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     height: 785px;
     text-align: left;
 }
 
 .landing-title {
 
-    padding: 13% 35% 10% 22%;
+    padding: 11% 35% 10% 22%;
 }
 
 .title {
@@ -96,7 +95,9 @@ font-weight: 400;
 }
 
 .subtitle {
-    line-height: 2.5rem;
+  font-size: 2.5rem;
+  padding-top: 6%;
+    line-height: 3.5rem;
 }
 
 .clubs {
@@ -114,13 +115,12 @@ font-weight: 400;
     width: 50%;
     border-radius: 100%;
     margin-bottom: 80px;
-    /* border: 3px solid #cd0a0a; */
 }
 
 
 /* Features */
 #features {
-    background-image: url('../images/edited/usp_background2.png');
+    background-image: url('../images/elements/usp_background2.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -244,9 +244,6 @@ hr {
   height: 1200px;
 }
 
-.riddle-answer {
-}
-
 .riddle-button {
     background: transparent;
     border: none !important;
@@ -269,11 +266,6 @@ hr {
     line-height: 5rem;
 }
 
-/* .riddle-answer {
-  text-align: right;
-  padding-right: 6%;
-} */
-
 .footer-dark {
   padding-top: 7%;
 }
@@ -285,6 +277,12 @@ hr {
 
 .socmed {
   margin: auto 20px;
+  padding-bottom: 1rem;
+}
+
+.phone {
+  text-align: center;
+  font-weight: bold;
   padding-bottom: 2rem;
 }
 
@@ -329,6 +327,17 @@ h5 .creator-link {
 
 @media only screen and (min-width: 1050px) and (max-width: 1180px) {
 
+  #title {
+    height: 600px;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+  .subtitle {
+    font-size: 2em;
+  }
+
   #footer {
     background-image: url(../images/elements/footer2_medium.png);
     background-size: cover;
@@ -351,6 +360,27 @@ h5 .creator-link {
 }
 
 @media only screen and (min-width: 950px ) and (max-width: 1050px) {
+  
+  #title {
+    height: 600px;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+  .subtitle {
+    font-size: 2em;
+  }
+
+
+  #intro {
+    padding: 7% 25%;
+}
+
+.profile-image {
+    width: 60%;
+}
+  
   #footer {
     background-image: url(../images/elements/footer2_small.png);
     background-size: cover;
@@ -369,6 +399,26 @@ h5 .creator-link {
 }
 
 @media only screen and (min-width: 860px ) and (max-width: 950px) {
+  #title {
+    height: 500px;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  
+  #intro {
+    padding: 7% 25%;
+}
+
+.profile-image {
+    width: 60%;
+}
+
   #footer {
     background-image: url(../images/elements/footer2_small.png);
     background-size: cover;
@@ -387,6 +437,28 @@ h5 .creator-link {
 }
 
 @media only screen and (min-width: 718px ) and (max-width: 860px) {
+  #title {
+    height: 400px;
+  }
+
+  .landing-title {
+    padding-top: 7%;
+  }
+
+  .title {
+    font-size: 2.6em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    padding-bottom: 20%;
+  }
+  
+  #intro {
+    padding: 7% 20%;
+    margin-top: 5%;
+}
+  
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
@@ -417,13 +489,42 @@ h5 .creator-link {
 .socmed {
   margin: auto 10px;
 }
-
+.phone {
+  text-align: left;
+  padding-left: 4%;
+}
 .copyright {
   padding-top: 10%;
 }
 }
 
-@media only screen and (min-width: 400px ) and (max-width: 718px) {
+@media only screen and (min-width: 570px ) and (max-width: 718px) {
+  #title {
+    height: 300px;
+  }
+
+  .landing-title {
+    padding-top: 7%;
+  }
+
+  .title {
+    font-size: 2.6em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    padding-bottom: 20%;
+  }
+  
+  #intro {
+    padding: 7% 20%;
+    margin-top: 22%;
+}
+.profile-image {
+  width: 70%;
+  margin: 50px auto;
+}
+  
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
@@ -455,24 +556,67 @@ h5 .creator-link {
   margin: auto 15px;
   width: 1rem;
 }
-
+.phone {
+  text-align: left;
+  padding-left: 4%;
+}
 .copyright {
   padding-top: 10%;
 }
 }
 
-@media only screen and (min-width: 570px ) and (max-width: 650px) {
-  .copyright {
-    padding-top: 20%;
-  }
-}
 
 @media only screen and (min-width: 400px ) and (max-width: 570px) {
+  #title {
+    height: 300px;
+  }
+
+  .landing-title {
+    padding-top: 7%;
+  }
+
+  .title {
+    font-size: 2.6em;
+  }
+  .subtitle {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    padding-bottom: 20%;
+  }
+  
+  #intro {
+    padding: 7% 20%;
+    margin-top: 25%;
+  }
+  .profile-image {
+    width: 70%;
+    margin: 50px auto;
+  }
+
+  .carousel-item {
+padding-bottom: 15%;
+  }
+
+  #footer {
+    background-image: url(../images/elements/footer2_smallest.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1200px;
+  }
+  .riddle { 
+    font-size: 1.3rem; 
+    line-height: 2.6rem;
+    padding-top: 22%;
+    padding: 40% 15%;
+ }
+
   .footer-dark {
     padding-top: 35%;
   }
 
   .footer-info {
+    text-align: left;
     padding-left: 0;
     padding-right: 0;
   }
@@ -481,8 +625,55 @@ h5 .creator-link {
     margin: auto 10px;
     width: 1rem;
   }
+  .phone {
+    text-align: left;
+    font-size: 1em;
+    padding-left: 4%;
+  }
   .copyright {
-    padding-top: 40%;
+    padding-top: 30%;
   }
   }
   
+
+
+  @media only screen and (max-width: 1000px) {
+    .navbar {
+      margin-right: 0;
+  }
+    
+    
+    #features {
+      height: 1000px;
+  }
+  
+  .usp-container {
+      padding: 8% 24%;
+  
+  }
+  
+  .feature-text {
+      padding-bottom: 2rem;
+  }
+  .icon {
+      padding-bottom: 30px;
+  }
+
+ 
+  .quote {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-top: 10%;
+  }
+  .testimonial-image{
+    width: 23%;
+  }
+
+  .courses-title {
+    font-size: 2em;
+    padding: 8% auto %;
+  }
+  .courses-subtitle{
+    font-size: 1.8em;
+  }
+  }
