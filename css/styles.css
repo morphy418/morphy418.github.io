@@ -552,17 +552,20 @@ h5 .creator-link {
     margin-top: 15%;
   }
 
-  }
   .courses-description-left {
-  padding-left: 30%;
+    padding-left: 30%;
   }
-  
+
   .courses-description-right {
     padding-right: 30%;
   }
-  .diamonds, .spades, .hearts{
+
+  .diamonds,
+  .spades,
+  .hearts {
     padding-bottom: 0;
   }
+
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
@@ -649,20 +652,24 @@ h5 .creator-link {
     padding-bottom: 15%;
   }
 
-h2.courses-subtitle{
-  font-size: 1.5em;
-  /* text-align: left; */
-}
-.courses-description-left {
-padding-left: 13%;
-}
+  h2.courses-subtitle {
+    font-size: 1.5em;
+  }
 
-.courses-description-right {
-  padding-right: 13%;
-}
-.diamonds, .spades, .hearts{
-  padding-bottom: 0;
-}
+  .courses-description-left {
+    padding-left: 13%;
+  }
+
+  .courses-description-right {
+    padding-right: 13%;
+  }
+
+  .diamonds,
+  .spades,
+  .hearts {
+    padding-bottom: 0;
+  }
+
 
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
@@ -746,20 +753,26 @@ padding-left: 13%;
   .carousel-item {
     padding-bottom: 15%;
   }
-  h2.courses-subtitle{
+
+  h2.courses-subtitle {
     font-size: 1.5em;
     /* text-align: left; */
   }
+
   .courses-description-left {
-  padding-left: 13%;
+    padding-left: 13%;
   }
-  
+
   .courses-description-right {
     padding-right: 13%;
   }
-  .diamonds, .spades, .hearts{
+
+  .diamonds,
+  .spades,
+  .hearts {
     padding-bottom: 0;
   }
+
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
@@ -857,6 +870,7 @@ padding-left: 13%;
   #testimonials {
     margin-top: 15%;
   }
+
   .quote.testimonial-text {
     font-size: 0.8em;
   }
@@ -869,20 +883,26 @@ padding-left: 13%;
   .carousel-item {
     padding-bottom: 15%;
   }
-  h2.courses-subtitle{
+
+  h2.courses-subtitle {
     font-size: 1.5em;
     /* text-align: left; */
   }
+
   .courses-description-left {
-  padding-left: 13%;
+    padding-left: 13%;
   }
-  
+
   .courses-description-right {
     padding-right: 13%;
   }
-  .diamonds, .spades, .hearts{
+
+  .diamonds,
+  .spades,
+  .hearts {
     padding-bottom: 5%;
   }
+
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
