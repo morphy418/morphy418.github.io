@@ -854,6 +854,9 @@ padding-left: 13%;
     margin: 50px auto;
   }
 
+  #testimonials {
+    margin-top: 15%;
+  }
   .quote.testimonial-text {
     font-size: 0.8em;
   }
@@ -889,10 +892,10 @@ padding-left: 13%;
   }
 
   .riddle {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2.6rem;
     padding-top: 22%;
-    padding: 40% 15%;
+    padding: 60% 5%;
   }
 
   #footer-dark {
@@ -906,7 +909,7 @@ padding-left: 13%;
   }
 
   .socmed {
-    margin: 0 0px;
+    margin: 0 3px;
     /* width: 1rem; */
     padding-top: 30%;
   }
