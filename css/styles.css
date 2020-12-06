@@ -266,7 +266,7 @@ hr {
   line-height: 5rem;
 }
 
-.footer-dark {
+#footer-dark {
   padding-top: 7%;
 }
 
@@ -305,7 +305,7 @@ h5 .creator-link {
     font-size: 2rem;
   }
 
-  .footer-dark {
+  #footer-dark {
     padding-top: 17%;
   }
 
@@ -320,7 +320,7 @@ h5 .creator-link {
     font-size: 2rem;
   }
 
-  .footer-dark {
+  #footer-dark {
     padding-top: 22%;
   }
 
@@ -357,7 +357,7 @@ h5 .creator-link {
     padding-top: 20%;
   }
 
-  .footer-dark {
+  #footer-dark {
     padding-top: 14%;
   }
 
@@ -496,7 +496,7 @@ h5 .creator-link {
     left: 48%;
   }
 
-  .footer-dark {
+  #footer-dark {
     padding-top: 30%;
   }
 
@@ -571,7 +571,7 @@ h5 .creator-link {
     left: 48%;
   }
 
-  .footer-dark {
+  #footer-dark {
     padding-top: 20%;
   }
 
@@ -638,6 +638,21 @@ h5 .creator-link {
     padding-bottom: 15%;
   }
 
+h2.courses-subtitle{
+  font-size: 1.5em;
+  /* text-align: left; */
+}
+.courses-description-left {
+padding-left: 13%;
+}
+
+.courses-description-right {
+  padding-right: 13%;
+}
+.diamonds, .spades, .hearts{
+  padding-bottom: 0;
+}
+
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
@@ -653,7 +668,7 @@ h5 .creator-link {
     padding: 40% 15%;
   }
 
-  .footer-dark {
+  #footer-dark {
     padding-top: 35%;
   }
 
@@ -720,7 +735,20 @@ h5 .creator-link {
   .carousel-item {
     padding-bottom: 15%;
   }
-
+  h2.courses-subtitle{
+    font-size: 1.5em;
+    /* text-align: left; */
+  }
+  .courses-description-left {
+  padding-left: 13%;
+  }
+  
+  .courses-description-right {
+    padding-right: 13%;
+  }
+  .diamonds, .spades, .hearts{
+    padding-bottom: 0;
+  }
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
@@ -736,7 +764,7 @@ h5 .creator-link {
     padding: 40% 15%;
   }
 
-  .footer-dark {
+  #footer-dark {
     padding-top: 35%;
   }
 
@@ -827,7 +855,20 @@ h5 .creator-link {
   .carousel-item {
     padding-bottom: 15%;
   }
-
+  h2.courses-subtitle{
+    font-size: 1.5em;
+    /* text-align: left; */
+  }
+  .courses-description-left {
+  padding-left: 13%;
+  }
+  
+  .courses-description-right {
+    padding-right: 13%;
+  }
+  .diamonds, .spades, .hearts{
+    padding-bottom: 5%;
+  }
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
@@ -843,7 +884,7 @@ h5 .creator-link {
     padding: 40% 15%;
   }
 
-  .footer-dark {
+  #footer-dark {
     padding-top: 35%;
   }
 
