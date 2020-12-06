@@ -552,6 +552,17 @@ h5 .creator-link {
     margin-top: 15%;
   }
 
+  }
+  .courses-description-left {
+  padding-left: 30%;
+  }
+  
+  .courses-description-right {
+    padding-right: 30%;
+  }
+  .diamonds, .spades, .hearts{
+    padding-bottom: 0;
+  }
   #footer {
     background-image: url(../images/elements/footer2_smallest.png);
     background-size: cover;
